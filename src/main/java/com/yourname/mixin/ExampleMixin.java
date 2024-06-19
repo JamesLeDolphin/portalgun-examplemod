@@ -16,6 +16,7 @@ public abstract class ExampleMixin {
 	 */
 	@Overwrite
 	public static TexturedModelData getTexturedModelData() {
+		//Simply replace this part below with your own version of it.
 		ModelData modelData = new ModelData();
 		ModelPartData modelPartData = modelData.getRoot();
 		ModelPartData bb_main = modelPartData.addChild("bb_main",
